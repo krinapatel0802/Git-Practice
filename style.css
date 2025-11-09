@@ -1,0 +1,73 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 40px;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    color: #0077cc;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs and lists */
+p, ul {
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005fa3;
+}
